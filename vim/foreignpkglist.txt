@@ -1,0 +1,7 @@
+bottom
+colorpicker
+diskonaut-git
+glow
+grip
+nerd-fonts-fira-code
+

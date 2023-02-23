@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/nelson/Documents/notes/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+- image_ueberzug	lunarTodo.md	/^  - image_ueberzug$/;"	s
+- image_ueberzug	vim/lunarTodo.md	/^  - image_ueberzug$/;"	s
+Add Nas as remote for local repo	git-setup/README.md	/^# Add Nas as remote for local repo$/;"	c
+Buffers	vim/vim.md	/^## Buffers$/;"	s	chapter:Vim shortcuts
+Commands	vim/vim.md	/^## Commands$/;"	s	chapter:Vim shortcuts
+G	vim/vim.md	/^## G$/;"	s	chapter:Vim shortcuts
+How to set up a printer through the command line	printing.md	/^# How to set up a printer through the command line$/;"	c
+Jumplist/changelist	vim/vim.md	/^## Jumplist\/changelist$/;"	s	chapter:Vim shortcuts
+Markdown	vim/glepnirTodo.md	/^## Markdown$/;"	s	chapter:Plugins to consider
+Plugins to consider	vim/glepnirTodo.md	/^# Plugins to consider$/;"	c
+Ranges	vim/vim.md	/^## Ranges$/;"	s	chapter:Vim shortcuts
+Search	vim/vim.md	/^## Search$/;"	s	chapter:Vim shortcuts
+Tabs	vim/vim.md	/^## Tabs$/;"	s	chapter:Vim shortcuts
+To create a Git repository:	git-setup/README.md	/^# To create a Git repository:$/;"	c
+Todo items for LunarVim	lunarTodo.md	/^# Todo items for LunarVim$/;"	c
+Todo items for LunarVim	vim/lunarTodo.md	/^# Todo items for LunarVim$/;"	c
+Tools	tools.md	/^# Tools$/;"	c
+Vim shortcuts	vim/vim.md	/^# Vim shortcuts$/;"	c
+Windows	vim/vim.md	/^## Windows$/;"	s	chapter:Vim shortcuts
