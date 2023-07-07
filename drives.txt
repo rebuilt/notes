@@ -1,0 +1,7 @@
+sudo mount -o remount,rw /dev/sda1 /mnt/435604F849E75320 fuseblk ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other,blksize=4096 0 0
+sudo mount -o remount,rw /dev/sdb2 /media/nelson/Crucial128 fuseblk ro,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0
+sudo mount -o remount,rw /dev/sdc3 /media/nelson/1AD85754D8572D6F fuseblk ro,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0
+sudo mount -o remount,rw /dev/sdd1 /mnt/249E13199E12E2DA fuseblk ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other,blksize=4096 0 0
+sudo mount -o remount,rw /dev/sdf1 /mnt/5E3297CD3297A893 fuseblk rw,relatime,user_id=0,group_id=0,allow_other,blksize=4096 0 0
+sudo mount -o remount,rw /dev/sdg1 /mnt/D48C052A8C050926 fuseblk ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other,blksize=4096 0 0
+

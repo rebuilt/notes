@@ -1,0 +1,11 @@
+# Fugitive
+
+## Commands
+  ** :G commit  -You can run any git command with :G or :Git
+  ** :Gdiffsplit  -Brings up the staged version of the file side by side withe the working tree version.  Use Vim's diff handling capabilities to apply changes to the staged version, and write that buffer to stage the changes.   You can also give an arbitrary :Gedit argument to diff against older versions of the file.
+  ** :Gread  -Alternative to git checkout  --filename
+  ** :Gwrite -Alternative to git add
+  ** :Ggrep  -Alternative to git grep, :Glgrep is :lgrep
+  ** :Gmove  -Alternative to git move on the current file
+  ** :GDelete -Alternative to git rm
+  ** :GBrowse  -Opens the current file on the web front-end of hosting provider

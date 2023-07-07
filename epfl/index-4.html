@@ -1,0 +1,38 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Unknown </title></head><body>
+<h1 id="rails-command-line-for-tests">Rails command line for tests</h1>
+<ol>
+<li>rails test</li>
+<li>rails test:system</li>
+<li>rails test:models</li>
+</ol>
+<h1 id="ruby-gems-and-capybara">Ruby gems and Capybara</h1>
+<p>Gemfile is in root of the application.  It defines what plugins/'gems' are installed.  </p>
+<h1 id="capybara-commands">Capybara commands</h1>
+<ol>
+<li>sleep(1.seconds)</li>
+<li>visit()</li>
+<li>fill_in()</li>
+<li>click_on('Ruby', match: first)</li>
+</ol>
+<h1 id="generate-test">Generate test</h1>
+<ol>
+<li>rails generate system_test idea</li>
+</ol>
+<h1 id="test-methods">Test methods</h1>
+<ol>
+<li>assert</li>
+<li>assert has_content?('some content')</li>
+<li>assert current_path == root_path</li>
+<li>assert current_url.include?('/styles/atoms')</li>
+<li>fill_in</li>
+<li>fill_in('q', with: 'Spain').send_keys(:enter)</li>
+<li>click_on</li>
+<li>visit path</li>
+<li>assert_equal 2, 2</li>
+<li>refute_equal 2, 0</li>
+<li>refute false</li>
+<li>model.first_updated_at </li>
+<li>model.updated_at</li>
+<li>redirect_to path</li>
+</ol>
+</body></html>

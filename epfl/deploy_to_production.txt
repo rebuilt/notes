@@ -1,0 +1,8 @@
+
+1.    Create a script called run-production.sh and add rails server --environment production as the first line.
+2.    Use chmod +x in the terminal to modify run-production.sh to make it executable.
+3.    Create a new secret key value using rails secret in the terminal.
+4.    Add export SECRET_KEY_BASE=secret at the top of run-production.sh, where secret is the value from 3.
+5.   Create a database for production mode using RAILS_ENV=production rails db:setup.
+6.   Pre-compile all assets using RAILS_ENV=production rails assets:precompile.
+7.   Allow the public/ folder to be served in production mode by adding exportRAILS_SERVE_STATIC_FILES=trueto the top ofrun-production.rb`.

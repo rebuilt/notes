@@ -1,0 +1,19 @@
+<meta>t - transpose two words
+
+** Pull in the last argument from the previous line
+git branch -d name
+git push :name
+
+```
+<Meta>_
+```
+
+<Ctrl>w - delete last word
+
+<Ctrl>a - go to beginning of line
+
+<Ctrl>l - clear screen
+
+<Ctrl>p - previous command
+
+<Ctrl>u - undo - or delete the entire line

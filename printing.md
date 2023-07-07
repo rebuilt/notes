@@ -16,7 +16,9 @@ network dnssd://Foo%20Fighter-1969._pdl-datastream._tcp.local./?uuid=4e216bea-c3
 
 ```bash
 lpadmin -p lexmark -E -v ipp://192.168.1.23/ipp/print -m everywhere
+lpadmin -p lexmark dnssd://Lexmark%20CS317dn._ipp._tcp.local/?uuid=a004fc5c-3590-4972-a2bd-a9d09736b0c5
 
+lpadmin -p lexmark -E
 ```
 
 5.  My lexmark printer does not need drivers. But if it did, go to the admin help page to find out how to list and install drivers. http://localhost:631/help/admin.html#PRINTERS
@@ -24,4 +26,20 @@ lpadmin -p lexmark -E -v ipp://192.168.1.23/ipp/print -m everywhere
 
 ```bash
 ls
+```
+
+# How to print
+
+Find the printer you want to print to with:
+
+```
+lpstat -t
+```
+
+Print the file with the lpr command
+
+```
+lpr -P PRINTER_NAME FILENAME
+lpr -P Lexmark_CS317dn lasagna.md
+lpr -P PRINTER_NAME FILENAME
 ```

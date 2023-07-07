@@ -1,0 +1,44 @@
+```
+npm install --save-dev --save-exact prettier
+```
+
+Then, create an empty config file to let editors and other tooling know you are using Prettier:
+```
+echo {}> .prettierrc.json
+```
+
+Next, create a .prettierignore file to let the Prettier CLI and editors know which files to not format. Here’s an example:
+
+```
+# Ignore artifacts:
+build
+coverage
+
+
+```
+
+    Tip! Base your .prettierignore on .gitignore and .eslintignore (if you have one).
+
+    Another tip! If your project isn’t ready to format, say, HTML files yet, add *.html.
+
+Now, format all files with Prettier:
+npm
+yarn
+
+```
+npx prettier --write .
+```
+
+    What is that npx thing? npx ships with npm and lets you run locally installed tools. We’ll leave off the npx part for brevity throughout the rest of this file!
+
+    Note: If you forget to install Prettier first, npx will temporarily download the latest version. That’s not a good idea when using Prettier, because we change how code is formatted in each release! It’s important to have a locked down version of Prettier in your package.json. And it’s faster, too.
+
+prettier --write . is great for formatting everything, but for a big project it might take a little while. You may run prettier --write app/ to format a certain directory, or prettier --write app/components/Button.js to format a certain file. Or use a glob like prettier --write "app/**/*.test.js" to format all tests in a directory (see fast-glob for supported glob syntax).
+
+If you have a CI setup, run the following as part of it to make sure that everyone runs Prettier. This avoids merge conflicts and other collaboration issues!
+
+```
+prettier --check .
+```
+
+--check is like --write, but only checks that files are already formatted, rather than overwriting them. prettier --write and prettier --check are the most common ways to run Prettier.
