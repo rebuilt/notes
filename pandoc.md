@@ -33,3 +33,6 @@ theme:
 ---
 
 ```
+
+# Command to produce markdown
+[[pandocsettings.md]]
