@@ -6,8 +6,9 @@
 4.  After the repository is created, a Git client user can enter the following command to access this repository:
     git clone ssh://[Git users]@[Your Synology server's IP address or hostname]/[Git repository path]
 
-```
+```bash
 ssh nelson@192.168.1.164
+sudo -i # optional become root
 cd /volume1/git/
 sudo git --bare init git-setup.git
 sudo chown -R nelson:users git-setup.git
@@ -20,6 +21,6 @@ git update-server-info
 
 1. Clone repo from NAS
 
-```
-git clone ssh://nelson@192.168.1.164/volume1/git/git-setup.git
+```bash
+git clone ssh://nelson@192.168.1.174/volume1/git/git-setup.git
 ```
